@@ -1,0 +1,35 @@
+.loginPageContainer {
+  grid-template-columns: 30% 70%;
+  width: 100%;
+  display: grid;
+}
+
+.loginBox {
+  grid-template-rows: 30% 10% repeat(3, 1fr);
+  padding: 30px;
+  display: grid;
+}
+
+.loginHead {
+  padding-bottom: 40px;
+  font-size: 100px;
+}
+
+.flexIt {
+  justify-content: space-between;
+  padding: 40px;
+  display: flex;
+}
+
+.imageLogin {
+  width: 100%;
+  height: 100vh;
+}
+
+.buttonLogin {
+  border-radius: 80px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+/*# sourceMappingURL=login.3a01df49.css.map */
